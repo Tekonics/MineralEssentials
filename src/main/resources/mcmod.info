@@ -1,0 +1,16 @@
+[
+{
+"modid": "MineralEssentials",
+"name": "Mineral Essentials",
+"description": "Mineral Essentials is essential for any Minecraft modpack",
+"version": "${version}",
+"mcversion": "${mcversion}",
+"url": "http://me-corp.github.io/",
+"updateUrl": "",
+"authorList": ["ME-Corp"],
+"credits": "Forge team",
+"logoFile": "",
+"screenshots": [],
+"dependencies": []
+}
+]

@@ -1,0 +1,7 @@
+# This is a basic setup. The time is at default.
+# It's technically no different than the white wool, even through the "franetime" attribute is added because the timing is set to "1".
+# Compare this to the Blue Wool which has the same setup, but different timing making it run slower.
+
+{
+"animation": { "frametime": 1 }
+}

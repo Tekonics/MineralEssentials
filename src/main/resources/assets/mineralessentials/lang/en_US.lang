@@ -1,0 +1,182 @@
+//Cobalt
+tile.CobaltOre.name=Cobalt Ore
+tile.CobaltBlock.name=Cobalt Block
+item.CobaltIngot.name=Cobalt Ingot
+item.CobaltPickaxe.name=Cobalt Pickaxe
+item.CobaltAxe.name=Cobalt Axe
+item.CobaltHoe.name=Cobalt Hoe
+item.CobaltShovel.name=Cobalt Shovel
+item.CobaltSword.name=Cobalt Sword
+item.CobaltHelmet.name=Cobalt Helmet
+item.CobaltChestplate.name=Cobalt Chestplate
+item.CobaltPants.name=Cobalt Pants
+item.CobaltBoots.name=Cobalt Boots
+
+/Copper
+tile.CopperOre.name=Copper Ore
+tile.CopperBlock.name=Copper Block
+item.CopperIngot.name=Copper Ingot
+item.CopperPickaxe.name=Copper Pickaxe
+item.CopperAxe.name=Copper Axe
+item.CopperHoe.name=Copper Hoe
+item.CopperShovel.name=Copper Shovel
+item.CopperSword.name=Copper Sword
+tile.CopperBlock.name=Copper Block
+item.CopperHelmet.name=Copper Helmet
+item.CopperChestplate.name=Copper Chestplate
+item.CopperPants.name=Copper Pants
+item.CopperBoots.name=Copper Boots
+
+//Crystal
+item.CrystalCrystal.name=Crystal
+item.CrystalPickaxe.name=Crystal Pickaxe
+item.CrystalAxe.name=Crystal Axe
+item.CrystalHoe.name=Crystal Hoe
+item.CrystalShovel.name=Crystal Shovel
+item.CrystalSword.name=Crystal Sword
+item.CrystalHelmet.name=Crystal Helmet
+item.CrystalChestplate.name=Crystal Chestplate
+item.CrystalPants.name=Crystal Pants
+item.CrystalBoots.name=Crystal Boots
+
+//Fire Crystal
+item.BlazeBlob.name=Blaze Blob
+item.FireCrystalCrystal.name=Fire Crystal
+item.FireCrystalPickaxe.name=Fire Crystal Pickaxe
+item.FireCrystalAxe.name=Fire Crystal Axe
+item.FireCrystalHoe.name=Fire Crystal Hoe
+item.FireCrystalShovel.name=Fire Crystal Shovel
+item.FireCrystalSword.name=Fire Crystal Sword
+item.FireCrystalHelmet.name=Fire Crystal Helmet
+item.FireCrystalChestplate.name=Fire Crystal Chestplate
+item.FireCrystalPants.name=Fire Crystal Pants
+item.FireCrystalBoots.name=Fire Crystal Boots
+
+//Water Crystal
+item.WaterCrystalCrystal.name=Water Crystal
+item.WaterCrystalPickaxe.name=Water Crystal Pickaxe
+item.WaterCrystalAxe.name=Water Crystal Axe
+item.WaterCrystalHoe.name=Water Crystal Hoe
+item.WaterCrystalShovel.name=Water Crystal Shovel
+item.WaterCrystalSword.name=Water Crystal Sword
+item.WaterCrystalHelmet.name=Water Crystal Helmet
+item.WaterCrystalChestplate.name=Water Crystal Chestplate
+item.WaterCrystalPants.name=Water Crystal Pants
+item.WaterCrystalBoots.name=Water Crystal Boots
+
+//Air Crystal
+item.AirCrystalCrystal.name=Air Crystal
+item.AirCrystalPickaxe.name=Air Crystal Pickaxe
+item.AirCrystalAxe.name=Air Crystal Axe
+item.AirCrystalHoe.name=Air Crystal Hoe
+item.AirCrystalShovel.name=Air Crystal Shovel
+item.AirCrystalSword.name=Air Crystal Sword
+item.AirCrystalHelmet.name=Air Crystal Helmet
+item.AirCrystalChestplate.name=Air Crystal Chestplate
+item.AirCrystalPants.name=Air Crystal Pants
+item.AirCrystalBoots.name=Air Crystal Boots
+
+//Earth Crystal
+item.EarthCrystalCrystal.name=Earth Crystal
+item.EarthCrystalPickaxe.name=Earth Crystal Pickaxe
+item.EarthCrystalAxe.name=Earth Crystal Axe
+item.EarthCrystalHoe.name=Earth Crystal Hoe
+item.EarthCrystalShovel.name=Earth Crystal Shovel
+item.EarthCrystalSword.name=Earth Crystal Sword
+item.EarthCrystalHelmet.name=Earth Crystal Helmet
+item.EarthCrystalChestplate.name=Earth Crystal Chestplate
+item.EarthCrystalPants.name=Earth Crystal Pants
+item.EarthCrystalBoots.name=Earth Crystal Boots
+
+//Tin
+tile.TinBlock.name=Tin Block
+tile.TinOre.name=Tin Ore
+item.TinIngot.name=Tin Ingot
+item.TinHelmet.name=Tin Helmet
+item.TinChestplate.name=Tin Chestplate
+item.TinPants.name=Tin Pants
+item.TinBoots.name=Tin Boots
+item.TinSword.name=Tin Sword
+item.TinHoe.name=Tin Hoe
+item.TinPickaxe.name=Tin Pickaxe
+item.TinAxe.name=Tin Axe
+item.TinShovel.name=Tin Shovel
+
+//Iridium
+tile.IridiumOre.name=Iridium Ore
+tile.IridiumBlock.name=Iridium Block
+item.IridiumIngot.name=Iridium Ingot
+item.IridiumPickaxe.name=Iridium Pickaxe
+item.IridiumAxe.name=Iridium Axe
+item.IridiumHoe.name=Iridium Hoe
+item.IridiumShovel.name=Iridium Shovel
+item.IridiumSword.name=Iridium Sword
+item.IridiumHelmet.name=Iridium Helmet
+item.IridiumChestplate.name=Iridium Chestplate
+item.IridiumPants.name=Iridium Pants
+item.IridiumBoots.name=Iridium Boots
+
+//Steel
+tile.SteelOre.name=Steel Ore
+tile.SteelBlock.name=Steel Block
+item.SteelIngot.name=Steel Ingot
+item.SteelPickaxe.name=Steel Pickaxe
+item.SteelAxe.name=Steel Axe
+item.SteelHoe.name=Steel Hoe
+item.SteelShovel.name=Steel Shovel
+item.SteelSword.name=Steel Sword
+item.SteelHelmet.name=Steel Helmet
+item.SteelChestplate.name=Steel Chestplate
+item.SteelPants.name=Steel Pants
+item.SteelBoots.name=Steel Boots
+
+//Glass
+tile.ClearGlassBlock.name=Clear Glass
+tile.MECorpClearGlassBlock.name=Clear Glass - logo
+
+//Creative
+tile.GreenScreen.name=Green Screen
+tile.BlueScreen.name=Blue Screen
+tile.RedScreen.name=Red Screen
+tile.RandomBlock.name=Random Easter Egg
+item.MECorp.name=ME-Corp Logo
+item.CreativeSword.name=Creative Sword
+item.CreativeShovel.name=Creative Shovel
+item.CreativeHoe.name=Creative Hoe
+item.CreativeAxe.name=Creative Axe
+item.CreativePickaxe.name=Creative Pickaxe
+
+//Random
+item.Glasses.name=Glasses
+item.Headset.name=Headset
+item.EyeGlass.name=EyeGlass
+item.LabcoatChestplate.name=Labcoat
+item.LabcoatPants.name=Labcoat
+item.LabcoatBoots.name=Labcoat
+
+//Fake Diamond
+item.FakeDiamond.name=Diamond
+tile.FakeDiamondOre.name=Diamond Ore
+tile.FakeDiamondBlock.name=Diamond Block
+item.FakeDiamondPickaxe.name=Diamond Pickaxe
+item.FakeDiamondAxe.name=Diamond Axe
+item.FakeDiamondHoe.name=Diamond Hoe
+item.FakeDiamondShovel.name=Diamond Shovel
+item.FakeDiamondSword.name=Diamond Sword
+tile.FakeDiamondBlock.name=Diamond Block
+item.FakeDiamondHelmet.name=Diamond Helmet
+item.FakeDiamondChestplate.name=Diamond Chestplate
+item.FakeDiamondPants.name=Diamond Pants
+item.FakeDiamondBoots.name=Diamond Boots
+
+//Sheep
+item.SheepHelmet.name=Sheep Helmet
+item.SheepChestplate.name=Sheep Chestplate
+item.SheepPants.name=Sheep Pants
+item.SheepBoots.name=Sheep Boots
+
+//Food
+item.WheatFlour.name=Flour
+
+//Machines
+tile.MultiSmelterBlock.name=Multi Smelter
