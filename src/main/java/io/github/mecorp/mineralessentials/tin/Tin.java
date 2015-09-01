@@ -8,7 +8,8 @@ import io.github.mecorp.mineralessentials.tin.tools.TinTools;
 
 public class Tin
 {
-	public static void RegisterTin(){
+	public static void RegisterTin()
+	{
 		TinItems.RegisterTinItems();
 		TinTools.RegisterTinTools();
 		TinBlocks.RegisterTinBlocks();

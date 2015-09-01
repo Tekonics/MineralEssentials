@@ -26,6 +26,11 @@ import io.github.mecorp.mineralessentials.reference.Reference;
 import io.github.mecorp.mineralessentials.steel.Steel;
 import io.github.mecorp.mineralessentials.helper.LogHelper;
 import io.github.mecorp.mineralessentials.tin.Tin;
+import io.github.mecorp.mineralessentials.tweaks.Tweaks;
+import io.github.mecorp.mineralessentials.tweaks.recipies.ArrowRecipe;
+import io.github.mecorp.mineralessentials.tweaks.recipies.Leather;
+import io.github.mecorp.mineralessentials.tweaks.recipies.NetherStar;
+import io.github.mecorp.mineralessentials.tweaks.recipies.Skulls;
 import org.apache.logging.log4j.LogManager;
 
 /**
@@ -60,6 +65,28 @@ public class MineralEssentials
     {
         ConfigHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigHandler());
+    }
+
+    @Mod.EventHandler
+    public void Init(FMLInitializationEvent event)
+    {
+
+        if (ConfigHandler.ArrowRecipe)
+        {
+            ArrowRecipe.RegisterArrowRecipe();
+        }
+        if (ConfigHandler.LeatherRecipe)
+        {
+            Leather.RegisterLeatherRecipe();
+        }
+        if (ConfigHandler.NetherStarRecipe)
+        {
+            NetherStar.RegisterNetherStarRecipe();
+        }
+        if (ConfigHandler.SkullsRecipe)
+        {
+            Skulls.RegisterSkullsRecipe();
+        }
         Copper.RegisterCopper();
         Tin.RegisterTin();
         Cobalt.RegisterCobalt();
@@ -70,6 +97,7 @@ public class MineralEssentials
         Food.RegisterFood();
         Random.RegisterRandom();
         Creative.RegisterCreative();
+        Tweaks.RegisterTweaks();
         if (Loader.isModLoaded("SolderCraft"))
         {
 
@@ -78,15 +106,10 @@ public class MineralEssentials
         {
             FakeDiamond.RegisterDiamond();
         }
-        //Machines.RegisterMachines();
+        Machines.RegisterMachines();
         ModGeneration.loadGeneration();
-    }
-
-    @Mod.EventHandler
-    public void Init(FMLInitializationEvent event)
-    {
-        //proxy.registerTileEntities();
-        //NetworkRegistry.INSTANCE.registerGuiHandler(instances, new GuiHandeler());
+        proxy.registerTileEntities();
+        NetworkRegistry.INSTANCE.registerGuiHandler(instances, new GuiHandeler());
     }
 
     @Mod.EventHandler

@@ -16,54 +16,64 @@ public class TinRecipes
 
    		GameRegistry.addSmelting(TinOre.TinOre, new ItemStack(TinItems.TinIngot, 1), 10);
 
-   	    GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinTools.TinPickaxe), "XXX",
+   	    GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinTools.TinPickaxe),
+				"XXX",
 				" C ",
 				" C ",
 				'X', "ingotTin", 'C', "stickWood"));
    	  
-        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinTools.TinAxe), "XX ",
+        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinTools.TinAxe),
+				"XX ",
 				"XC ",
 				" C ",
 				'X', "ingotTin", 'C', "stickWood"));
 
-        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinTools.TinHoe), "XX ",
+        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinTools.TinHoe),
+				"XX ",
 				" C ",
 				" C ",
 				'X', "ingotTin", 'C', "stickWood"));
 
-        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinTools.TinShovel), " X ",
+        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinTools.TinShovel),
+				" X ",
 				" C ",
 				" C ",
 				'X', "ingotTin", 'C', "stickWood"));
 
-        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinTools.TinSword), " X ",
+        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinTools.TinSword),
+				" X ",
 				" X ",
 				" C ",
 				'X', "ingotTin", 'C', "stickWood"));
 
-        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinBlocks.TinBlock), "XXX",
+        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinBlocks.TinBlock),
+				"XXX",
 				"XXX",
 				"XXX",
 				'X', "ingotTin"));
 			         	
        	GameRegistry.addShapelessRecipe(new ItemStack(TinItems.TinIngot, 9), new ItemStack(TinBlocks.TinBlock));
 
-        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinArmor.TinHelmet), "XXX",
+        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinArmor.TinHelmet),
+				"XXX",
 				"X X",
 				"   ",
 				'X', "ingotTin"));
 
-        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinArmor.TinChestplate), "X X",
+        GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinArmor.TinChestplate),
+				"X X",
 				"XXX",
 				"XXX",
 				'X', "ingotTin"));
        	
-       	GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinArmor.TinPants), "XXX",
+       	GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinArmor.TinPants),
+				"XXX",
 				"X X",
 				"X X",
 				'X', "ingotTin"));
        	
-       	GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinArmor.TinBoots), "   ",
+       	GameRegistry.addRecipe(new ShapedOreRecipe (new ItemStack(TinArmor.TinBoots),
+				"   ",
 				"X X",
 				"X X",
 				'X', "ingotTin"));

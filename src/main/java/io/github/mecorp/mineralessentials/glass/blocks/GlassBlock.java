@@ -2,6 +2,7 @@ package io.github.mecorp.mineralessentials.glass.blocks;
 
 import io.github.mecorp.mineralessentials.helper.RegisterHelper;
 import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
 
