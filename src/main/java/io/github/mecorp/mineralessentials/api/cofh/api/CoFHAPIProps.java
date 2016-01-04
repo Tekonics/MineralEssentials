@@ -1,4 +1,4 @@
-package cofh.api;
+package io.github.mecorp.mineralessentials.api.cofh.api;
 
 public class CoFHAPIProps {
 

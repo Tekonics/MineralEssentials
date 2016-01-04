@@ -70,7 +70,6 @@ public class MineralEssentials
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event)
     {
-
         if (ConfigHandler.ArrowRecipe)
         {
             ArrowRecipe.RegisterArrowRecipe();

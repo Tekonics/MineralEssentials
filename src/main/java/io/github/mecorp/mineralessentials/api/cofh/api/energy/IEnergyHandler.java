@@ -1,4 +1,4 @@
-package cofh.api.energy;
+package io.github.mecorp.mineralessentials.api.cofh.api.energy;
 
 import net.minecraftforge.common.util.ForgeDirection;
 

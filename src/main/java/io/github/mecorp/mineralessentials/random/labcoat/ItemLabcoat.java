@@ -1,12 +1,12 @@
 package io.github.mecorp.mineralessentials.random.labcoat;
 
 
-import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECorp;
-import io.github.mecorp.mineralessentials.reference.Reference;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.Entity;
-import net.minecraft.item.ItemArmor;
-import net.minecraft.item.ItemStack;
+		import io.github.mecorp.mineralessentials.creativetabs.CreativeTabMECorp;
+		import io.github.mecorp.mineralessentials.reference.Reference;
+		import net.minecraft.creativetab.CreativeTabs;
+		import net.minecraft.entity.Entity;
+		import net.minecraft.item.ItemArmor;
+		import net.minecraft.item.ItemStack;
 
 public class ItemLabcoat extends ItemArmor
 {
@@ -16,7 +16,7 @@ public class ItemLabcoat extends ItemArmor
 		setUnlocalizedName(name);
 		setTextureName(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
 	}
-	
+
 	@Override
 	public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
 	{
@@ -31,7 +31,7 @@ public class ItemLabcoat extends ItemArmor
 		else
 		{
 			System.out.println("Invalid Item ItemLabcoat");
-		return null;
+			return null;
 		}
 	}
 	@Override
